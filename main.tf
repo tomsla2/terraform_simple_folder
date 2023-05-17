@@ -5,7 +5,7 @@ terraform {
 
 
 resource "local_file" "lala" {
-  content  = "Lala jest super !
-"
+  content  = "Lala jest super !"
+
   filename = "/tmp/lala.txt"
 }

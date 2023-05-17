@@ -12,6 +12,9 @@ pipeline {
          stage('plan') {
             steps {
                 echo 'terraform plan'
+                         }
+        }
+
          stage('apply') {
             steps {
                 echo 'terraform apply'
